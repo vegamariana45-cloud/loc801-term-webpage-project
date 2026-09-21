@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- LOC NOTE: The DOCTYPE declaration should remain unchanged across localizations -->
+<html lang="es-MX">
+<!-- LOC NOTE: The lang attribute must be updated to match the target locale (e.g., es-MX for Mexican Spanish) -->
+<head>
+    <!-- LOC NOTE: The title should be translated and might need adaptation for target market SEO -->
+    <title>Terminología y IAG</title>
+    <!-- LOC NOTE: Meta descriptions should be translated and optimized for target market SEO -->
+    <meta name="description" content="This exploration focuses on two intersecting fields: terminology science - the study of how humans understand and label concepts - and generative artificial intelligence (GAI)." />
+    <!-- LOC NOTE: Charset should support target language character sets. UTF-8 is usually sufficient for most languages -->
+    <meta charset="UTF-8" />
+    <!-- LOC NOTE: CSS may need modifications for RTL languages or different text lengths -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- LOC NOTE: hreflang tags are crucial for SEO and helping search engines serve the right language version -->
+    <!-- LOC NOTE: Add hreflang tags for all available language versions -->
+    <link rel="alternate" hreflang="en-US" href="TerminologyWebpage_LocDemo_en-US.html" />
+    <link rel="alternate" hreflang="es-MX" href="TerminologyWebpage_LocDemo_es-MX.html" />
+</head>
+
+<body>
+    <!-- LOC NOTE: Language picker implementation might need adjustment based on target market preferences -->
+    <div class="language-picker">
+        <!-- LOC NOTE: "Language:" label should be translated -->
+        <label for="language-select">Language:</label>
+        <select id="language-select" onchange="changeLanguage(this.value)">
+            <!-- LOC NOTE: Language names should appear in their native form (endonyms). The use of flags to denote languages is considered politically incorrect -->
+            <option value="en-US">English</option>
+            <option value="es-MX">Español</option>
+        </select>
+    </div>
+
+    <main id="main-content">
+
+    <h1>Terminología y IAG</h1>
+    <!-- LOC NOTE: Author name typically remains unchanged, but some markets might require transliteration -->
+    <p>Por Alaina Brandt</p>
+    <!-- LOC NOTE: Add your name as translator here. Example: <p>Traducido por [Your Name]</p> or <p>Traducción en español por [Your Name]</p> -->
+    <p>En el panorama tecnológico actual, que evoluciona rápidamente, comprender como nos comunicamos y como construimos significado es más importante que nunca.</p>
+   
+    <!-- LOC NOTE: Throughout the contents, specialized terminology from the fields of translation, terminography, knowledge representation and machine learning. The appropriate equivalents for technical terminology needs to be used in the translations.  -->
+
+    <h2>Fundamentos de la teoría terminológica</h2>
+    <p>El trabajo terminológico se usa para asegurar la calidad en actividades como la escritura, la traducción y la interpretación. Para quienes se dedican a comunicarse con otros, la terminología es un tema que deben comprender. Para entender porque, podemos examinar el Triángulo Semántico, un modelo que ilustra la amnera en que los seres humanos construyen significado. También conocido como Triángulo del Significado, las ideas que presenta este modelo son bastante sencillas. </p>
+    
+    <ul class="content-list">
+        <!-- LOC NOTE: List markers might need adjustment for RTL languages -->
+        <li>En una de las esquinas del triángulo encontramos los <b>objetos</b> - es decir es decir, todo aquello que es percibido o concebido, de conformidad con la norma <a href="https://www.iso.org/standard/79077.html" target="_blank" rel="noopener noreferrer">ISO 704</a>.</li> 
+        <!-- LOC NOTE: ISO standard references should be checked for local language versions if available -->
+        <li>Otra corresponde a los <b>conceptos</b>, o las abstracciones que los seres humanos construyen en su mente.</li>  
+        <li>En la tercera se encuentran las <b>designaciones</b>, es decir, las palabras de las diferentes lenguas que se utilizan para denominar las abstracciones de los objetos.</li>
+    </ul>
+
+    <p>Estos elementos, vinculados entre sí, constituyen la manera en que los seres humanos construyen significado sobre el mundo que los rodea. Sin embargo, como señalo en el artículo <a href="https://alainambrandt.locessentials.com/getting-started-with-terminology-management/" target="_blank" rel="noopener noreferrer">Getting Started with Terminology Management</a>: “Es importante recordar que el hecho de que las comunidades de hablantes utilicen un lenguaje común no significa que esos hablantes compartan exactamente la misma conceptualización de cada objeto que se les designa.” Cada persona tiene sus propias ideas sobre lo que hace un objeto físico sea considerado una cosa, así como sobre conceptos abstractos como la amistad y la calidad.</p>
+    <!-- LOC NOTE: External links might need to be updated if localized versions exist -->
+    
+    <figure class="content-figure">
+        <img src="SemanticTriangle_en-US.png" alt="The Semantic Triangle superimposed over a human head, with the object corner aligned with eyes looking outward, the concept corner aligned with the brain, and the designation corner aligned between the ears and the mouth, plus the caption making meaning of language">
+        <!-- LOC NOTE: Image might need recreation if translatable content is hardcoded into it or adaptation for RTL languages or cultural considerations -->
+        <!-- LOC NOTE: Image alt text should be translated -->
+        <figcaption>
+            <!-- LOC NOTE: Figure numbering format might need adjustment for target locale conventions -->
+            Figura 1: El triángulo semántico muestra como los seres humanos unen objetos, conceptos y designaciones para darles significado.
+        </figcaption>
+    </figure>
+    <h2>Desafíos de la inteligencia artificial generativa y la terminología</h2>
+    <p>La aparición de la IA generativa de texto ha suscitado interesantes debates en los círculos de la terminología acerca de sus implicaciones para el Triángulo Semántico. A diferencia del uso tradicional del lenguaje, en el que las palabras se relacionan tanto con los conceptos como con los objetos del mundo real, la IA textual opera únicamente en el nivel de las designaciones (Dra. Sue Ellen Wright, conversación personal, 2024). Procesa el lenguaje mediante patrones numéricos y agrupaciones de similitud, sin una verdadera comprensión de los conceptos ni una conexión con referentes del mundo real. Esta desconexión fundamental respecto de los componentes conceptual y referencial del triángulo ayuda a explicar por qué la IA generativa puede producir alucinaciones y resultados inexactos.</p>
+
+    <h2>Gráficas de conocimiento: la solución de la terminología en la IA generativa</h2>
+    <p>La gráfica de conocimiento frece una solución prometedora a estos desafíos relacionados con la precisión de la IA. La<strong>gráfica de conocimiento</strong>, en la que los conceptos y objetos del mundo real se convierten en entidades (nodos) conectadas mediante relaciones (aristas). El lenguaje especializado es un lenguaje natural utilizado en un determinado campo de conocimiento y caracterizado por el uso de medios de expresión específicos (ISO 1087). Cuando los datos terminológicos recopilados sobre el lenguaje especializado se modelan estratégicamente dentro de un grafo de este tipo, pueden integrarse en sistemas de IA generativa para mejorar la calidad de sus resultados más allá de lo que es posible mediante una consulta convencional a un modelo de lenguaje de gran escala (LLM). </p>
+
+    <aside class="content-aside">
+        <p> En 2012, Google revolucionó las búsquedas en la web al implementar grafos de conocimiento a una escala sin precedentes. Presentaron esta función con el memorable lema "things, not strings" (cosas, no cadenas), con el que destacaban la capacidad del sistema para diferenciar entre conceptos que comparten el mismo nombre; por ejemplo, distinguir entre un jaguar, el animal, y Jaguar, la empresa automotriz. Para quienes no estén familiarizados con los grafos de conocimiento, el artículo de Google <a href="https://blog.google/products/search/introducing-knowledge-graph-things-not/" target="_blank" rel="noopener noreferrer">Introducing the Knowledge Graph: things, not strings</a>ofrece una excelente introducción mediante texto y recursos visuales.</p>
+        <p>- De <a href="https://youtu.be/ysjRAgRCtBY?si=44yEWtpWK34ufTUj" target="_blank" rel="noopener noreferrer">Converting Termbases into Knowledge Graphs</a> por Alaina Brandt presentado el 28 de diciembre de 2024.</p>
+        <!-- LOC NOTE: Brand names (Google, Jaguar) typically remain unchanged. The dual meaning of Jaguar might need creative adaptation. -->
+        <!-- LOC NOTE: Marketing slogans ("things not strings") might need creative adaptation -->
+        <!-- LOC NOTE: Date format should follow target locale conventions -->
+    </aside>
+
+    <h2>Terminología e IA generativa textual: conclusiones</h2>
+    <p>Entre las principales ventajas de utilizar grafos de conocimiento terminológico con IA generativa se encuentran:</p>
+    <ol class="content-list">
+    <!-- LOC NOTE: Numbered list format might need adjustment for some locales -->
+        <li>Mayor precisión mediante relaciones estructuradas entre conceptos.</li>
+        <li>Mejor manejo de términos ambiguos mediante un contexto explícito.</li>
+        <li>Mayor capacidad para verificar la información con respecto al conocimiento establecido.</li>
+        <li>Mapeo terminológico entre lenguas más confiable.</li>
+    </ol>
+
+    <div class="quiz-container">
+        <h2>Ponte a prueba</h2>
+        <p>Ahora que has aprendido un poco sobre el arte de la terminología, pon a prueba tu comprensión de los conceptos clave realizando este cuestionario.</p>
+        <form id="quizForm">
+        <!-- LOC NOTE: Quiz questions and answers should be carefully translated to maintain the same level of difficulty -->
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <h3>Pregunta 1</h3>
+                <p>¿Verdadero o falso? Todos los hablantes de una lengua tienen exactamente la misma conceptualización de los significados de todas las palabras que se utilizan en dicha lengua.</p>
+                <div class="options">
+                <!-- LOC NOTE: True/False answers should be translated according to target language conventions -->
+                    <div class="option-container">
+                        <input type="radio" name="q1" value="True" id="q1a">
+                        <label for="q1a">Verdadero</label>
+                    </div>
+                    <div class="option-container">
+                        <input type="radio" name="q1" value="False" id="q1b">
+                        <label for="q1b">Falso</label>
+                    </div>
+                </div>
+                <p class="feedback" id="feedback_q1"></p>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <h3>Pregunta 2</h3>
+                <p>¿Cuál es la definición de lenguaje especializado?</p>
+                <div class="options">
+                    <div class="option-container">
+                        <!-- LOC NOTE: The 'value' attribute should remain in English as it’s used by JavaScript. If we translate the value, we’d need to match that value in the JS file. Only the answer text should be translated -->
+                        <input type="radio" name="q2" value="independent of any specific subject field" id="q2a">
+                        <label for="q2a">Lenguaje natural caracterizado por el uso de medios lingüísticos de expresión que son independientes de cualquier campo temático específico.</label>
+                    </div>
+                    <div class="option-container">
+                        <input type="radio" name="q2" value="use in a specific subject field" id="q2b">
+                        <label for="q2b">Lenguaje natural utilizado en un campo temático y caracterizado por el uso de medios de expresión específicos.</label>
+                    </div>
+                </div>
+                <p class="feedback" id="feedback_q2"></p>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <h3>Pregunta 3</h3>
+                <p>¿Cuál es una característica que comparten la traducción y la interpretación? Selecciona la mejor respuesta.</p>
+                <div class="options">
+                    <div class="option-container">
+                        <input type="radio" name="q3" value="rendering of ideas" id="q3a">
+                        <label for="q3a">Trasladar las ideas expresadas en una lengua a otra lengua.</label>
+                    </div>
+                    <div class="option-container">
+                        <input type="radio" name="q3" value="written content" id="q3b">
+                        <label for="q3b">Trasladar contenido escrito.</label>
+                    </div>
+                    <div class="option-container">
+                        <input type="radio" name="q3" value="verbal content" id="q3c">
+                        <label for="q3c">Trasladar contenido visual</label>
+                    </div>
+                </div>
+                <p class="feedback" id="feedback_q3"></p>
+            </div>
+            
+            <!-- LOC NOTE: Button text should be translated -->
+            <button type="button" onclick="submitAnswers()">Enviar respuesta</button>
+        </form>
+    </div>
+
+    <script src="language-switcher.js"></script>
+    <script src="terminology-quiz_en-US.js"></script>
+    <!-- LOC NOTE: A locale-specific JS files (e.g., terminology-quiz_es-MX.js) is needed -->
+    <!-- LOC NOTE: Quiz feedback messages in JavaScript file will need translation -->
+</body>
+
+</html>
+
